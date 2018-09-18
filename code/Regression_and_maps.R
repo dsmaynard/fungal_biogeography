@@ -184,12 +184,9 @@ climate.pca<-read_csv("../geo_data/bioclim_PCA_variables.csv") %>% mutate(x=long
 # clean up the layers
 lake_fortify<-fortify(lake) %>% dplyr::rename(X=long, Y=lat, PID=group, POS=order) %>% mutate(piece=as.numeric(piece),PID=as.numeric(PID))
 ocean_fortify<-fortify(ocean) %>% dplyr::rename(X=long, Y=lat, PID=group, POS=order) %>% mutate(piece=as.numeric(piece),PID=as.numeric(PID))
-rdat<-rdat[complete.cases(rdat),]
 clim_ord <- c('Af', 'Am', 'As', 'Aw', 'BSh', 'BSk', 'BWh', 'BWk', 'Cfa', 'Cfb','Cfc', 'Csa', 'Csb', 'Csc', 'Cwa','Cwb', 'Cwc', 'Dfa', 'Dfb', 'Dfc','Dfd', 'Dsa', 'Dsb', 'Dsc', 'Dsd','Dwa', 'Dwb', 'Dwc', 'Dwd', 'EF','ET', 'Ocean')
 use_clim<-c("Aw","Am","Af","Cfa","Cfb","Dfa","Dfb")
 keep_clim<-(1:length(clim_ord))[clim_ord%in%use_clim]
-
-
 
 
 
