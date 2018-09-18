@@ -1,0 +1,38 @@
+show.name,var.name
+Temperature  niche width,temp.niche.width
+Optimal temperature,temp.temp.at.max.rate
+Temperature niche (low),temp.niche.low
+Temperature niche (high),temp.niche.high
+Moisture niche width,water.niche.width
+Optimal moisture,water.mpa.at.max.r
+Moisture niche (high),water.high
+Moisture niche (low),water.niche.low
+Competitive ranking,ranking
+Growth rate,rate.0.5
+Hyphal density,density
+V1,X11
+V2,X35
+V3,X7
+V4,X9
+V5,X55
+V6,X25
+V7,X16
+V8,X48
+V10,X87
+V11,X73
+V12,X81
+Temp. niche width,temp.niche.width
+Optimal temp.,temp.temp.at.max.rate
+Temp. niche min,temp.niche.low
+Temp. niche max,temp.niche.high
+Moist. niche width,water.niche.width
+Optimal moisture,water.mpa.at.max.r
+Moist. niche max,water.high
+Moist. niche min,water.niche.low
+Competitive ranking,ranking
+Growth rate,rate.0.5
+Density,density
+Phenoloxidase,abts.w
+Acid. Phos.,phos.w
+Cellobiohydrolase,cbh.w
+Peroxidase,perox
