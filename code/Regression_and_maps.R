@@ -96,9 +96,11 @@ comb.scale<-comb.scale.o<-comb
 
 
 # get tree (shortcut)
-tree.fungi <- read.newick("../fungi_data/phylogenetic_tree.txt")
-is.ultrametric(tree.fungi)
-tree.fungi <- collapse.singles(tree.fungi)
+tree <- read.nexus("../fungi_data/LSU_phylogenetic_tree_rooted.nexus")
+is.ultrametric(tree)
+tree.fungi<-drop.tip(tree, tree$tip.label[!tree$tip.label%in%comb$name3])
+rownames(comb.scale.o) <- comb.scale.o$name3
+
 plot(tree.fungi, cex=1)  
 
 
