@@ -30,7 +30,7 @@ Optimal moisture,water.mpa.at.max.r
 Moist. niche max,water.high
 Moist. niche min,water.niche.low
 Competitive ranking,ranking
-Growth rate,rate.0.5
+Hyphal extension rate,rate.0.5
 Density,density
 Phenoloxidase,abts.w
 Acid. Phos.,phos.w
