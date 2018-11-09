@@ -192,7 +192,7 @@ keep_clim<-(1:length(clim_ord))[clim_ord%in%use_clim]
 
 
 
-############# making maps
+############ making maps
 
 # main temperature plot
 gg3<-plot_fig(mod=fit3.s,climate.pca=climate.pca, bstack.o=bstack.o, kc0=kc0, forest_mask=forest_mask, lake_fortify=lake_fortify, ocean_fortify=ocean_fortify,scale_func=scale11)
