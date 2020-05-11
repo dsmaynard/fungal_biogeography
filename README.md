@@ -1,8 +1,10 @@
 ## Consistent trade-offs in fungal trait expression across broad spatial scales
 
-### **_Nature Microbiology_, 2019, 4:846–853**
+**_Nature Microbiology_, 2019, 4:846–853**
 
 **Daniel S. Maynard, Mark A. Bradford, Kristofer R. Covey, Daniel Lindner, Jessie Glaeser, Douglas A. Talbert, Paul Joshua Tinker, Donald M. Walker, Thomas W. Crowther**
+
+---
 
 This repository contains code accompanying the [published manuscript](https://www.nature.com/articles/s41564-019-0361-5). 
 
