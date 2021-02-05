@@ -1,5 +1,5 @@
 show.name,var.name
-Temperature  niche width,temp.niche.width
+Temperature niche width,temp.niche.width
 Optimal temperature,temp.temp.at.max.rate
 Temperature niche (low),temp.niche.low
 Temperature niche (high),temp.niche.high
@@ -23,10 +23,12 @@ V11,X73
 V12,X81
 Temp. niche width,temp.niche.width
 Optimal temp.,temp.temp.at.max.rate
+Growth rate at optimal temp., temp.max.rate
 Temp. niche min,temp.niche.low
 Temp. niche max,temp.niche.high
 Moist. niche width,water.niche.width
 Optimal moisture,water.mpa.at.max.r
+Growth rate at optimal moisture,water.max.r
 Moist. niche max,water.high
 Moist. niche min,water.niche.low
 Competitive ranking,ranking
